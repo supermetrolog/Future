@@ -11,7 +11,7 @@ body{
     font-size: 15,82pt;
 }
 .header{
-    background-image: url(/image/bg-header.png);
+    background-image: url(/web/image/bg-header.png);
     background-position: center top;
     background-repeat: repeat-x;
     background-color: #eeeeee;
