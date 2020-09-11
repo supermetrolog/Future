@@ -1,0 +1,127 @@
+body{
+    font-family: Roboto;
+    color: black;
+}
+
+.contact {
+    margin-top: 40px;
+}
+.contact p{
+    font-style: bold;
+    font-size: 15,82pt;
+}
+.header{
+    background-image: url(/image/bg-header.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-color: #eeeeee;
+}
+.logo{
+    margin: 0;
+    margin-top: 15px;
+}
+.title p{
+    font-weight: 200;
+    font-size: 48pt;
+}
+
+.title{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+.footer-contact{
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+}
+.item{
+    padding: 0;
+    margin: 0;
+}
+
+.item p{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-style: bold;
+    font-size: 15,82pt;
+}
+
+.footer{
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: auto;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-copyright{
+    margin-top: 5px;
+}
+
+.content{
+    background-color: #eeeeee;
+    padding-bottom: 45px;
+}
+
+.comment{
+    margin-left: 30px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 21pt;
+}
+
+.date{
+    font-weight: lighter;
+    font-size: 14pt;
+    margin-left: 50px;
+    color: #3d3d3d;
+}
+.comment-text{
+    color: #3d3d3d;
+}
+
+hr{
+    margin-left: 30px;
+    background-color:#d4d4d4;
+    height: 2px;
+}
+
+.send-comment{
+    padding-left: 15px;
+}
+
+.send-comment-title{
+    font-weight: normal;
+    font-size: 24pt;
+}
+
+.control-label{
+    color: #3d3d3d;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#comment-text{
+    height: 135px;
+    background-color: #eeeeee;
+    border-color: black;
+    border-width: 2px;
+    text-align: left;
+}
+
+#comment-name{
+    height: 45px;
+}
+
+.btn-send{
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+}
