@@ -23,7 +23,7 @@ $this->title = 'Comments';
 
     <hr>
 </div>
-<p>FUCK</p>
+
 <div class="row send-comment">
     <div class="col-lg-6">
         <label for="send">
