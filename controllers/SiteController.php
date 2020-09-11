@@ -63,7 +63,7 @@ class SiteController extends Controller
         $model = new Comment();
         $comments = Comment::find()->orderBy(['date' => SORT_DESC])->limit(Comment::LIMIT)->all();
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect('/');
+            return $this->redirect("/web/");
         }
   
         return $this->render('index', ['model' => $model, 'comments' => $comments]);
